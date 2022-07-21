@@ -5,30 +5,29 @@ public class Equacao {
     private double b;
     private double c;
 
-    //#region Getters e Setters
-    public double getNA(){
+    // #region Getters e Setters
+    public double getNA() {
         return a;
     }
-    
-    public double getNB(){
+
+    public double getNB() {
         return b;
     }
-    
-    public double getNC(){
+
+    public double getNC() {
         return c;
     }
 
     public void setNA(double a) {
         this.a = a;
     }
-    
+
     public void setNB(double b) {
         this.b = b;
     }
-    
+
     public void setNC(double c) {
         this.c = c;
     }
-    //#endregion
+    // #endregion
 }
-

@@ -22,10 +22,10 @@ public class EqX1X2 extends Equacao {
     public void setCalculaX2(double x2) {
         this.x2 = x2;
     }
-    //#endregion
+    // #endregion
 
-    //#region Regras de Negócios
-    
+    // #region Regras de Negócios
+
     public double calculaX1(Delta n) {
         x1 = (-(n.getNB()) + Math.sqrt(n.getDelta())) / (2 * n.getNA());
         return x1;
@@ -35,6 +35,5 @@ public class EqX1X2 extends Equacao {
         x2 = (-(n.getNB()) - Math.sqrt(n.getDelta())) / (2 * n.getNA());
         return x2;
     }
-    //#endregion
+    // #endregion
 }
-
